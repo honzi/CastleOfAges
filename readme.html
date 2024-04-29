@@ -14,7 +14,22 @@ body{
 }
 hr{
     color: #060;
-    margin: 0 25px;
+    margin: 20px 25px;
+}
+.jobs,
+.kings,
+.tables{
+    display: flex;
+}
+.jobs div{
+    display: inline-block;
+    padding: 0 30px;
+    width: 25%;
+}
+.kings div{
+    display: inline-block;
+    padding: 0 30px;
+    width: 20%;
 }
 .main{
     background: #fc6;
@@ -30,6 +45,24 @@ strong{
     margin: 10px 25px;
     text-align: left;
 }
+.image{
+    display: flex;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 2%;
+    width: 50%;
+}
+td{
+    border: 1px solid #000;
+    padding: 3px;
+    text-align: left;
+    vertical-align: top;
+}
+td:first-child{
+    padding: 0;
+    width: 75px;
+}
 .title{
     font-size: 24px;
     font-weight: 700;
@@ -39,40 +72,175 @@ strong{
 <img alt="" height=122 src=images/logo1.gif width=210>
 <div class=main>
   <div class=title>How to Play</div>
-  <div class=text>
-    <strong>Introduction</strong>
-    Welcome to Age of Castles! Start a brand new castle outside of the town and follow one simple rule... grow! Keep growing more and more people until finally you rule the entire land!<br><br>
-    Winning the game is simple: Convert as many people as you can! 1 billion people conquers the realm!
+  <div class="image text">
+    <div>
+      <strong>Introduction</strong>
+      Welcome to Age of Castles! Start a brand new castle outside of the town and follow one simple rule... grow! Keep growing more and more people until finally you rule the entire land!<br><br>
+      Winning the game is simple: Convert as many people as you can! 1 billion people conquers the realm!
+    </div>
+    <img alt="" height=180 src=images/s-title1.jpg width=240>
   </div>
   <hr>
   <div class=text>
     <strong>King Types</strong>
     There are 5 different kings you can pick from. Each type has a different special skill that will help your game so choose carefully!
   </div>
+  <div class=kings>
+    <div>
+      <img alt="" height=151 src=images/k-dwarf1.jpg width=115><br>
+      <strong>The Dwarf</strong>
+      The Dwarf finds more gold each day!
+    </div>
+    <div>
+      <img alt="" height=151 src=images/k-prince1.jpg width=115><br>
+      <strong>The Prince</strong>
+      The Prince converts more people each day!
+    </div>
+    <div>
+      <img alt="" height=151 src=images/k-wizard1.jpg width=115><br>
+      <strong>The Wizard</strong>
+      The Wizard finds more magic each day!
+    </div>
+    <div>
+      <img alt="" height=151 src=images/k-knight1.jpg width=115><br>
+      <strong>The Knight</strong>
+      The Knight makes your castle stronger each day!
+    </div>
+    <div>
+      <img alt="" height=151 src=images/k-warrior1.jpg width=115><br>
+      <strong>The Warrior</strong>
+      The Warrior finds more battles!
+    </div>
+  </div>
   <hr>
   <div class=text>
     <strong>Law of the Land</strong>
     Each day you give jobs to the people in your kingdom. Click on the arrow buttons to adjust how many people you want for each job. There are 4 different jobs your people can have:
+  </div>
+  <div class=jobs>
+    <div>
+      <img alt="" height=171 src=images/job-merchants1.jpg width=87><br>
+      <strong>Merchants</strong>
+      The more merchants we have, the more gold we make each day.
+    </div>
+    <div>
+      <img alt="" height=171 src=images/job-clerics1.jpg width=87><br>
+      <strong>Clerics</strong>
+      The more clerics we have, the faster our people will be converted.
+    </div>
+    <div>
+      <img alt="" height=171 src=images/job-builders1.jpg width=87><br>
+      <strong>Builders</strong>
+      The more workers we have, the faster our castle will grow
+    </div>
+    <div>
+      <img alt="" height=171 src=images/job-soldiers1.jpg width=87><br>
+      <strong>Soldiers</strong>
+      The more soldiers we have, the better our attack and defense will be.
+    </div>
   </div>
   <div class=text>
     <strong>Preset Buttons</strong>
     To help you assign your people jobs, use the 4 preset buttons! Click any 1 of the people portraits to set that job as the day's priority.
   </div>
   <hr>
-  <div class=text>
-    <strong>Map of the Realm</strong>
-    You start your colony in the Human Town. With every level you go up, you can move your castle to the next location. Moving your castle to a new location will cost you mana and a little bit of gold.<br><br>
-    Each location in the realm is unique, giving you different challenges and rewards. Explore and discover what places are best for you!
+  <div class="image text">
+    <div>
+      <strong>Map of the Realm</strong>
+      You start your colony in the Human Town. With every level you go up, you can move your castle to the next location. Moving your castle to a new location will cost you mana and a little bit of gold.<br><br>
+      Each location in the realm is unique, giving you different challenges and rewards. Explore and discover what places are best for you!
+    </div>
+    <img alt="" height=180 src=images/s-map1.jpg width=240>
+  </div>
+  <div class=tables>
+    <table>
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>THE ARENA</strong>
+          The arena draws audiences from around the land who love to watch a good battle of steel on steel!
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>THE ELVEN FOREST</strong>
+          The forest is the home of the elves, both good and evil, and other magical creatures.
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>THE TOWN</strong>
+          The town is where you start your army. Recruit more men and grow in numbers!
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>THE RUINS</strong>
+          These ruins were once a powerful kingdom, destroyed by dark forces long ago. Now they are infested with goblins and other dark creatures.
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>ICE WASTELAND</strong>
+          The icy wasteland is home to wild barbarian tribes.
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>SKY CASTLE</strong>
+          The sky castle is a kingdom set high in the mountains above the clouds. Speak with the sky castle queen and learn magical secrets here.
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>THE TEMPLE</strong>
+          The temple is a holy ground where clerics gather to hone their magical powers. Come here to rest your army and gain some blessings from the clerics.
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>THE UNDERWORLD CEMETERY</strong>
+          The cemetary is filled with the graves of fallen warriors. Arcane rituals are bringing them back to life, forming an army of the undead.
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>SKULL ISLAND</strong>
+          The island is home to pirate raiders and many magical creatures.
+    </table>
+    <table>
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>THE BLUE CASTLE</strong>
+          The Blue Castle is a stronghold still controlled by good humans. Come here to recruit more men and gather more supplies.
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>DESERT OASIS</strong>
+          The desert oasis is the gathering spot for nomads and caravans in the vast sand dunes of the south.
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>THE TOWER</strong>
+          The tower is filled with orcs, who are bred and ruled by evil wizards!
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>THE SWAMP</strong>
+          The foul swamps of the west are filled with poisonous gas and lizard men tribes.
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>DWARVEN MINES</strong>
+          The tunnels of the dwarven mines are carved into the mountain walls. Dwarves dig deep in search of mythral, a magic metal.
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>THE UNDERWORLD VOLCANO</strong>
+          The final destination! The volcano is a raging inferno, and home to the evil dragons, rules of the underworld.
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>THE RIVER STYX</strong>
+          THe River Styx is filled with lost souls and watched over by Charon, the demon boatman.
+      <tr>
+        <td><img alt="" height=75 src=images/flag1.gif width=75>
+        <td><strong>THE PORTAL</strong>
+          The portal is a secret magical gateway that allows you to travel to the underworld.
+    </table>
   </div>
   <hr>
-  <div class=text>
-    <strong>Ye Olde Magik Shoppe</strong>
-    Go to the Ye Olde Magik Shoppe to buy magic items! With every level you go up, new items will become available. Purchasing items at the Shoppe will cost you mana so spend wisely! There are dozens of magic items you can buy!
+  <div class="image text">
+    <div>
+      <strong>Ye Olde Magik Shoppe</strong>
+      Go to the Ye Olde Magik Shoppe to buy magic items! With every level you go up, new items will become available. Purchasing items at the Shoppe will cost you mana so spend wisely! There are dozens of magic items you can buy!
+    </div>
+    <img alt="" height=180 src=images/s-store1.jpg width=240>
   </div>
   <hr>
-  <div class=text>
-    <strong>Tales of the Quest</strong>
-    Go to the Tales of the Quest Screen to get the low-down on your kingdom! You can see how many daily bonuses you receive and also check out your colony's battle record. Click on the arrow buttons to see all of the different enemies you've encountered!
+  <div class="image text">
+    <div>
+      <strong>Tales of the Quest</strong>
+      Go to the Tales of the Quest Screen to get the low-down on your kingdom! You can see how many daily bonuses you receive and also check out your colony's battle record. Click on the arrow buttons to see all of the different enemies you've encountered!
+    </div>
+    <img alt="" height=180 src=images/s-stats1.jpg width=240>
   </div>
   <hr>
   <div class=text>
@@ -86,9 +254,12 @@ strong{
     The Realm is filled with all sorts of goblins, orcs, demons and dragons who don't like you. Be on the lookout for these bad guys. As your castle grows, you'll battle bigger and stronger enemies. Different enemies live in different locations of the Realm, so explore around the map to find them all!
   </div>
   <hr>
-  <div class=text>
-    <strong>Battle</strong>
-    When you encounter an enemy you go to the Battle Screen. There you will be able to see your enemy's fighting stats and then you decide whether to attack or retreat. When you defeat an enemy you will get a victory reward. If you retreat you will lose a few people, but live to fight another day!
+  <div class="image text">
+    <div>
+      <strong>Battle</strong>
+      When you encounter an enemy you go to the Battle Screen. There you will be able to see your enemy's fighting stats and then you decide whether to attack or retreat. When you defeat an enemy you will get a victory reward. If you retreat you will lose a few people, but live to fight another day!
+    </div>
+    <img alt="" height=180 src=images/s-battle1.jpg width=240>
   </div>
   <hr>
   <div class=text>
@@ -96,13 +267,16 @@ strong{
     There are 18 levels in the game. With each level you got up, you get rewards like mana, gold, and other bonuses!
   </div>
   <hr>
-  <div class=text>
-    <strong>Gameplay Tips &amp; Strategies</strong>
-    You can only hold as much gold as your castle size. Any extra gold you find will not fit in your treasury. If you want to hold more gold, make your castle bigger!<br><br>
-    You need 1 people to maintain 2 castle. If you want a bigger castle, you need to convert more people.<br><br>
-    If you find yourself fighting some tough enemies, give yourself more solider and boost your attack and defense!<br><br>
-    Making your castle bigger will increase your battle defense.<br><br>
-    Items at Ye Olde Magik Shoppe can really help your kingdom get to the next level. Check out all the items for sale and save mana for those expensive items you really want!
+  <div class="image text">
+    <div>
+      <strong>Gameplay Tips &amp; Strategies</strong>
+      You can only hold as much gold as your castle size. Any extra gold you find will not fit in your treasury. If you want to hold more gold, make your castle bigger!<br><br>
+      You need 1 people to maintain 2 castle. If you want a bigger castle, you need to convert more people.<br><br>
+      If you find yourself fighting some tough enemies, give yourself more solider and boost your attack and defense!<br><br>
+      Making your castle bigger will increase your battle defense.<br><br>
+      Items at Ye Olde Magik Shoppe can really help your kingdom get to the next level. Check out all the items for sale and save mana for those expensive items you really want!
+    </div>
+    <img alt="" height=180 src=images/s-menu1.jpg width=240>
   </div>
   <hr>
   <div class=text>
